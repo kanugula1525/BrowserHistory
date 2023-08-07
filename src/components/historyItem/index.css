@@ -1,0 +1,93 @@
+.browserHistoryContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar {
+  background-color: #3367d6;
+  padding: 10px;
+  display: flex;
+}
+.historyLogo {
+  margin-right: 300px;
+  margin-left: 30px;
+  height: 30px;
+}
+
+.searchLogo {
+  background-color: #2850a7;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: #6697ff solid 1px;
+  border-top: #6697ff solid 1px;
+  border-bottom: #6697ff solid 1px;
+}
+
+.inputStyle {
+  background-color: #2850a7;
+  border: #6697ff solid 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  width: 400px;
+  color: #ffffff;
+}
+
+.historyItemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 5px #f8fafc;
+  background-color: #ffffff;
+  margin: 50px;
+  align-self: center;
+  padding: 20px;
+  width: 1000px;
+}
+
+.historyItemStyleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.historyItemStyle {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.time {
+  color: #475569;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.domainLogo {
+  height: 25px;
+  margin-right: 20px;
+}
+
+.title {
+  color: #475569;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.url {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.buttonStyle {
+  outline: none;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
